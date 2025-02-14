@@ -1,0 +1,22 @@
+{
+  "name": "first",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "@aws-amplify/auth": "^6.11.0",
+    "@aws-sdk/client-cognito-identity": "^3.744.0",
+    "@aws-sdk/client-s3": "^3.744.0",
+    "@aws-sdk/credential-providers": "^3.744.0",
+    "aws-amplify": "^6.13.0"
+  }
+}
