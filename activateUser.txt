@@ -1,0 +1,16 @@
+aws cognito-idp admin-set-user-password --user-pool-id us-east-1_EIRG4wYqN --username kyawzayarsoe --password "Kakeruaura1!" --permanent
+npm create vite@latest first
+cd first
+npm install
+npm run dev
+npm install aws-amplify @aws-amplify/auth
+
+
+amplify IaaC
+cdk synth (CloudDevKit for CoolApi package.json --output sync )
+npm run deploy
+
+
+npm i @aws-sdk/client-cognito-identity @aws-sdk/credential-providers
+npm install @aws-sdk/client-cognito-identity @aws-sdk/credential-providers
+npm i @aws-sdk/client-s3
